@@ -12,6 +12,5 @@ Currently, you can import this using a CDN:
 Currently, only the default DoNotes theme has been integrated here, and can be imported as such:
 
 ```html
-<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/donoteslabs/material-web@main/default.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/donoteslabs/material-web@v0.0.1/default.css" />
 ```
