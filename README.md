@@ -12,7 +12,7 @@ Currently, you can import this using a CDN:
 Currently, only the default DoNotes theme has been integrated here, and can be imported as such:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/donoteslabs/material-web@v0.0.1/default.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/donoteslabs/material-web@v0.0.1/themes/default.css" />
 ```
 
 ### Component Docs
