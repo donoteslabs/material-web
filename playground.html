@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+    <head>
+
+            <script src="https://cdn.jsdelivr.net/gh/donoteslabs/material-web@v0.0.1/md.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/donoteslabs/material-web@v0.0.1/themes/default.min.css" />
+</head>
+    <body>
+        <h1>
+            DoNotes Google Material design integration
+        </h1>
+        <h3>
+            https://github.com/donoteslabs/material-web/
+        </h3>
+        <h4>Playground:</h4>
+        <h2>
+            <a href="https://github.com/material-components/material-web/blob/main/docs/components/button.md">Buttons</a>
+        </h2>
+        <table>
+            <tr>
+                <td>
+                    <md-filled-button>Filled</md-filled-button>
+                </td>
+                <td>
+                    <md-outlined-button>Outlined</md-outlined-button>
+                </td>
+                <td>
+                    <md-filled-tonal-button>Tonal</md-filled-tonal-button>
+                </td>
+                <td>
+                    <md-text-button>Text</md-text-button>
+                </td>
+            </tr>
+        </table>
+        <h2>
+            <a href="https://github.com/material-components/material-web/blob/main/docs/components/checkbox.md">Checkbox</a>
+        </h2>
+        <table>
+            <tr>
+                <td>
+                    Checkboxes may be standalone, pre-checked, or indeterminate.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <md-checkbox touch-target="wrapper"></md-checkbox>
+                    <md-checkbox touch-target="wrapper" checked></md-checkbox>
+                    <md-checkbox touch-target="wrapper" indeterminate></md-checkbox>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    Associate a label with a checkbox using the &lt;label&gt; element.
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <label>
+                      <md-checkbox touch-target="wrapper"></md-checkbox>
+                      Checkbox one
+                    </label>
+                </td>
+                <td>
+                    <md-checkbox id="checkbox-two" touch-target="wrapper"></md-checkbox>
+                    <label for="checkbox-two">Checkbox two</label>
+                </td>
+            </tr>
+        </table>
+        <h2>
+            <a href="https://github.com/material-components/material-web/blob/main/docs/components/chip.md">
+                Chips
+            </a>
+        </h2>
+        <table>
+            <tr>
+                 <td>
+                     Type of chip
+                 </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <md-assist-chip label="Assist"></md-assist-chip>
+                </td>
+                <td>
+                    <md-filter-chip label="Filter"></md-filter-chip>
+                </td>
+                <td>
+                    <md-input-chip label="Input"></md-input-chip>
+                </td>
+                <td>
+                    <md-suggestion-chip label="Suggestion"></md-suggestion-chip>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    Chip set
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>New event</h3>
+                    <md-chip-set>
+                      <md-filter-chip label="All day"></md-filter-chip>
+                      <md-assist-chip label="Add to calendar"></md-assist-chip>
+                      <md-assist-chip label="Set a reminder"></md-assist-chip>
+                    </md-chip-set>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
